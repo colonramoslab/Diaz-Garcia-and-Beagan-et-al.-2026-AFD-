@@ -1,0 +1,50 @@
+All worms grown at 20C, then synced as L4s the night before @ 20C
+~10-15 mins prep time for worms on agarose pad (5% agarose in M9, 7.5 mM levamisole (9 ul worms in M9 + 27 ul 10 mM levamisole), pipet worms onto pad and pipet off excess liquid)
+~15 mins minimum of slip on Peltier @ 20C hold before starting protocol
+
+Microscope settings: GFP cube, 100% FIM, 6deg field
+LED: 10% 560 nm, 3% 470 nm
+Stimulus protocol: E:\Josh\Protocols\20to17to23.out
+Acquisition: 280 frames, 1 frame/sec, 250 ms exposure, 4x4 binning.
+
+Run 1: WyIs629
+genotype: WyIs629
+neuron: AFD
+Tc: 25C 3:45pm-9:50pm (6hr)
+start prep time: 9:50pm
+on peltier time: 10:00pm
+start exp time: 10:10pm
+TifFolder: 
+StimFile: 20hold_plus_to21p2degC_1to5minRamps_steps_for_model_3_31_22_Ernesto.txt
+Notes: Rec time 45mi 5sec (2,703 timepoits)
+
+-----------------------------
+TEMPLATE
+
+Run x:
+genotype: 
+neuron: 
+Tc: 
+start prep time: 
+on peltier time: 
+start exp time: 
+TifFolder: 
+StimFile: 
+Notes: 
+
+
+
+CHEAT SHEET
+
+20to17to23.out [20C 60sec, downramp to 17C 30sec (-0.1C/sec), 17C 60sec, upramp to 23C 60sec (+0.1C/sec), 23C 60 sec] = 270 frames
+_testRamp_tSet20C.out [15C 5sec, upramp to 25C 100sec (+0.1C/sec), 25C 5sec] = 110 frames
+
+DCR5772 olaIs74
+DCR7223 glc-3(ok321); olaIs74
+DCR7233 avr-14(ad1302); olaIs74
+DCR7611 avr-14(ad1302); glc-3(ok321); olaIs74
+
+DCR6604 olaIs23; wyIs629
+
+DCR3151 egl-3(n150); olaIs17
+DCR7767 egl-3(nu1711); olaIs17
